@@ -7,6 +7,6 @@ namespace ShopAppV2.DataAccess.Abstract
 {
     public interface IOrderDal:IRepository<Order>
     {
-        
+        //test
     }
 }
