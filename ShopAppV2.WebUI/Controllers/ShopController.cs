@@ -35,15 +35,21 @@ namespace ShopAppV2.WebUI.Controllers
                 });
             }
 
-            public IActionResult List(string category, int page = 1)
-            {
-                const int pageSize = 3;
-
+        public IActionResult List(string category, int page = 1)
+        {
+            const int pageSize = 3;
             return View(new ProductListModel()
+            {
+                Products = _productService.GetProductsByCategory(category, page, pageSize),
+                PagingInfo = new PagingInfo()
                 {
-                    Products = _productService.GetProductsByCategory(category, page, pageSize)
+                    CurrentPage = page,
+                    ItemsPerPage = pageSize,
+                    TotalItems = _productService.GetCountByCategory(category),
+                    CurrentCategory = category
+                }
             });
-            }
         }
+    }
 }
 

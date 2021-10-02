@@ -1,4 +1,4 @@
-﻿@model ShopAppV2.WebUI.Models.ProductListModel
+﻿@model ProductListModel
 
 <div class="row">
     <div class="col-md-3">
@@ -12,6 +12,8 @@
                 <partial name="_product" for="@product" />
             }
         </div>
+
+        <div page-model="@Model.PagingInfo"></div>
 
     </div>
 </div>

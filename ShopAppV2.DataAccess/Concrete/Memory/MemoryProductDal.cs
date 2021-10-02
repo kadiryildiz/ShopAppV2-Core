@@ -64,5 +64,10 @@ namespace ShopAppV2.DataAccess.Concrete.Memory
         {
             throw new NotImplementedException();
         }
+
+        public int GetCountByCategory(string category)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
