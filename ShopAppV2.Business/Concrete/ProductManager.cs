@@ -57,5 +57,15 @@ namespace ShopAppV2.Business.Concrete
         {
             return _productDal.GetCountByCategory(category);
         }
+
+        public Product GetByIdWithCategories(int id)
+        {
+            return _productDal.GetByIdWithCategories(id);
+        }
+
+        public void Update(Product entity, int[] categoryIds)
+        {
+            _productDal.Update(entity, categoryIds);
+        }
     }
 }

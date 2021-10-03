@@ -59,22 +59,33 @@ namespace ShopAppV2.WebUI
             }
             app.UseStaticFiles();
             app.CustomStaticFiles();  //Middlewares klasörü içerisine class eklendi node_modules için.
-            //app.UseMvcWithDefaultRoute();
-            app.UseMvc(routes =>
-            {
+                                      //app.UseMvcWithDefaultRoute();
+                                      app.UseMvc(routes =>
+                                      {
+                                          routes.MapRoute(
+                                              name: "adminProducts",
+                                              template: "admin/products",
+                                              defaults: new { controller = "Admin", action = "ProductList" }
+                                          );
 
-                routes.MapRoute(
-                    name: "products",
-                    template: "products/{category?}",
-                    defaults: new { controller = "Shop", action = "List" }
-                );
+                                          routes.MapRoute(
+                                              name: "adminProducts",
+                                              template: "admin/products/{id?}",
+                                              defaults: new { controller = "Admin", action = "EditProduct" }
+                                          );
 
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}"
-                );
+                                          routes.MapRoute(
+                                              name: "products",
+                                              template: "products/{category?}",
+                                              defaults: new { controller = "Shop", action = "List" }
+                                          );
 
-            });
+                                          routes.MapRoute(
+                                              name: "default",
+                                              template: "{controller=Home}/{action=Index}/{id?}"
+                                          );
+
+                                      });
         }
     }
 }

@@ -69,5 +69,15 @@ namespace ShopAppV2.DataAccess.Concrete.Memory
         {
             throw new NotImplementedException();
         }
+
+        public Product GetByIdWithCategories(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(Product entity, int[] categoryIds)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
