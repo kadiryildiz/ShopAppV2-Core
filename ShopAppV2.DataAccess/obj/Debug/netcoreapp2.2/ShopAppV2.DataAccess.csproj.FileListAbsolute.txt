@@ -1,0 +1,16 @@
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.DataAccess\bin\Debug\netcoreapp2.2\ShopAppV2.DataAccess.deps.json
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.DataAccess\bin\Debug\netcoreapp2.2\ShopAppV2.DataAccess.dll
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.DataAccess\bin\Debug\netcoreapp2.2\ShopAppV2.DataAccess.pdb
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.DataAccess\bin\Debug\netcoreapp2.2\ShopAppV2.Entities.dll
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.DataAccess\bin\Debug\netcoreapp2.2\ShopAppV2.Entities.pdb
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.DataAccess\obj\Debug\netcoreapp2.2\ShopAppV2.DataAccess.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.DataAccess\obj\Debug\netcoreapp2.2\ShopAppV2.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.DataAccess\obj\Debug\netcoreapp2.2\ShopAppV2.DataAccess.AssemblyInfoInputs.cache
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.DataAccess\obj\Debug\netcoreapp2.2\ShopAppV2.DataAccess.AssemblyInfo.cs
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.DataAccess\obj\Debug\netcoreapp2.2\ShopAppV2.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.DataAccess\obj\Debug\netcoreapp2.2\ShopAppV2.DataAccess.csproj.CopyComplete
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.DataAccess\obj\Debug\netcoreapp2.2\ShopAppV2.DataAccess.dll
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.DataAccess\obj\Debug\netcoreapp2.2\ShopAppV2.DataAccess.pdb
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.DataAccess\bin\Debug\netcoreapp2.2\ShopAppV2.DataAccess.runtimeconfig.json
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.DataAccess\bin\Debug\netcoreapp2.2\ShopAppV2.DataAccess.runtimeconfig.dev.json
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.DataAccess\obj\Debug\netcoreapp2.2\ShopAppV2.DataAccess.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.Business\bin\Debug\netcoreapp2.2\ShopAppV2.Business.deps.json
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.Business\bin\Debug\netcoreapp2.2\ShopAppV2.Business.dll
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.Business\bin\Debug\netcoreapp2.2\ShopAppV2.Business.pdb
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.Business\obj\Debug\netcoreapp2.2\ShopAppV2.Business.csproj.AssemblyReference.cache
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.Business\obj\Debug\netcoreapp2.2\ShopAppV2.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.Business\obj\Debug\netcoreapp2.2\ShopAppV2.Business.AssemblyInfoInputs.cache
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.Business\obj\Debug\netcoreapp2.2\ShopAppV2.Business.AssemblyInfo.cs
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.Business\obj\Debug\netcoreapp2.2\ShopAppV2.Business.csproj.CoreCompileInputs.cache
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.Business\obj\Debug\netcoreapp2.2\ShopAppV2.Business.dll
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.Business\obj\Debug\netcoreapp2.2\ShopAppV2.Business.pdb
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.Business\bin\Debug\netcoreapp2.2\ShopAppV2.DataAccess.dll
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.Business\bin\Debug\netcoreapp2.2\ShopAppV2.Entities.dll
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.Business\bin\Debug\netcoreapp2.2\ShopAppV2.DataAccess.pdb
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.Business\bin\Debug\netcoreapp2.2\ShopAppV2.Entities.pdb
+C:\Users\kadir\source\repos\ShopAppV2\ShopAppV2.Business\obj\Debug\netcoreapp2.2\ShopAppV2.Business.csproj.CopyComplete
