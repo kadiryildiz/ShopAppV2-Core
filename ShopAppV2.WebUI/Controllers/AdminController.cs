@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using ShopAppV2.Business.Abstract;
@@ -12,6 +13,7 @@ using ShopAppV2.WebUI.Models;
 
 namespace ShopAppV2.WebUI.Controllers
 {
+    [Authorize(Roles = "admin")]
     public class AdminController : Controller
     {
         private IProductService _productService;

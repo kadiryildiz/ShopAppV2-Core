@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using ShopAppV2.DataAccess.Abstract;
 using ShopAppV2.Business.Abstract;
@@ -17,6 +18,7 @@ using ShopAppV2.Business.Concrete;
 using ShopAppV2.DataAccess.Concrete.EfCore;
 using ShopAppV2.WebUI.Identity;
 using ShopAppV2.WebUI.Middlewares;
+using ShopAppV2.WebUI.EmailServices;
 
 namespace ShopAppV2.WebUI
 {
@@ -72,7 +74,8 @@ namespace ShopAppV2.WebUI
                 options.Cookie = new CookieBuilder
                 {
                     HttpOnly = true,
-                    Name = ".ShopApp.Security.Cookie"
+                    Name = ".ShopApp.Security.Cookie",
+                    SameSite = SameSiteMode.Strict // Csrf (Cross Site Request Forgery) attack larýný engeller.
                 };
 
             });
@@ -90,12 +93,12 @@ namespace ShopAppV2.WebUI
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
+            services.AddTransient<IEmailSender, EmailSender>(); //Sendgrid.com  (confirm mail için servis)
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env,UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager) // admin role için usermanager ve rolemanager çaðrýldý.
         {
             if (env.IsDevelopment())
             {
@@ -136,6 +139,8 @@ namespace ShopAppV2.WebUI
                                           );
 
                                       });
+
+                                      SeedIdentity.Seed(userManager, roleManager, Configuration).Wait(); // Identity/SeedIdentity.cs de admin role seed edildi.
         }
     }
 }
