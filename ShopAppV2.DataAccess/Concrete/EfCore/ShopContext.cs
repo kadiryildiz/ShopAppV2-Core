@@ -19,5 +19,6 @@ namespace ShopAppV2.DataAccess.Concrete.EfCore
         }
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Cart> Carts { get; set; }  // cart üzerinden cartİtems'e erişim sağlıyabildiğimiz için dbset'e cartItem eklemeye gerek kalmadı.
     }
 }
