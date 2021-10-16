@@ -86,6 +86,7 @@ namespace ShopAppV2.WebUI
             services.AddScoped<ICategoryDal, EfCoreCategoryDal>();
             services.AddScoped<IProductService, ProductManager>(); // IproductService'i çaðýrýrsak bize ProductManager'i gönder.
             services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<ICategoryService, CartManager>();
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
